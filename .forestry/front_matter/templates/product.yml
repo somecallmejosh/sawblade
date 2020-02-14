@@ -47,5 +47,6 @@ fields:
   label: Product URL
   description: Product URL
 pages:
+- content/products/atssb.md
 - content/products/q101-carbon-steel.md
 - content/products/qsaw701.md
