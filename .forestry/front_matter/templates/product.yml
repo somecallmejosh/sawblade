@@ -1,0 +1,50 @@
+---
+label: product
+hide_body: true
+fields:
+- name: id
+  type: text
+  config:
+    required: false
+  label: ID
+  description: Product ID
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+  description: Product Name
+- name: price
+  type: number
+  label: Price
+  description: Product Price
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: Product description
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
+  description: Product Image
+- name: product_url
+  type: text
+  config:
+    required: false
+  label: Product URL
+  description: Product URL
+pages:
+- content/products/q101-carbon-steel.md
