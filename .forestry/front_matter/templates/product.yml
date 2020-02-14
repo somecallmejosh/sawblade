@@ -46,6 +46,12 @@ fields:
     required: false
   label: Product URL
   description: Product URL
+- name: image_link
+  type: text
+  config:
+    required: false
+  label: Image Link
+  description: Link to Image
 pages:
 - content/products/atssb.md
 - content/products/q101-carbon-steel.md
